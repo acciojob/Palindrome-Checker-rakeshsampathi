@@ -4,7 +4,7 @@ const arr=str.split("");
 	const revarr=arr.reverse();
 	const joinarr=revarr.join("");
 	
-	if(str==joinarr){
+	if(str===joinarr){
 		return true;
 	}
 	else{
