@@ -6,6 +6,7 @@ const arr=str.split("");
 	for(var i=0;i<len/2;i++){
 		if(arr[i]!=arr[len-1-i]){
 			return false;
+			break;
 		}
 	}
 	return true;
