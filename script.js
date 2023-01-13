@@ -5,10 +5,10 @@ const arr=str.split("");
 	const joinarr=revarr.join("");
 	
 	if(str===joinarr){
-		return true;
+		console.log(true);
 	}
 	else{
-		return false;
+		console.log(false);
 	}
 }
 module.exports = palindrome
